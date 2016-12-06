@@ -11,6 +11,7 @@
  android:fitsSystemWindows="true"
  设置theme的自定义样式在布局文件中
  在values values-v19 values-v21中设置自定义的style
+ 为AppBarlayout设置属性
 -->
 <android.support.design.widget.AppBarLayout
     android:layout_width="match_parent"
