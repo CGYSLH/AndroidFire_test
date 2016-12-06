@@ -3,12 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
     android:layout_width="match_parent" android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.mi.androidfire.MainActivity">
 
+
+    tools:context="com.mi.androidfire.MainActivity">
+<!--
+加入沉浸式标题栏
+ android:fitsSystemWindows="true"
+ 设置theme的自定义样式在布局文件中
+ 在values values-v19 values-v21中设置自定义的style
+-->
 <android.support.design.widget.AppBarLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
     android:background="#de5201"
+
     android:id="@+id/appbar">
     <android.support.v7.widget.Toolbar
         android:background="#de5201"

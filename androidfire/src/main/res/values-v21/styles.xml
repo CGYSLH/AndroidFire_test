@@ -7,9 +7,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="AyStyle" parent="AppTheme"></style>
 
+    <style name="AyStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
 
-
-
+        <item name="android:statusBarColor">@color/tran</item>
+    </style>
 </resources>

@@ -7,9 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="AyStyle" parent="AppTheme"></style>
 
-
-
-
+    <style name="AyStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--设置系统状态栏是否支持透明效果-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
 </resources>
