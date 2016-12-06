@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidFire</string>
+    <string-array name="newstab1">
+        <item>头条</item>
+        <item>科技</item>
+        <item>财经</item>
+        <item>军事</item>
+        <item>体育</item>
+    </string-array>
+</resources>
